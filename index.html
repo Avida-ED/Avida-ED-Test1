@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Avida-ED — Evolution in Action</title>
+  <meta name="description" content="Avida-ED is an open-access educational platform for learning evolution by natural selection through digital organisms." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="topbar" role="banner">
+    <div class="topbar__inner">
+      <a class="brand" href="#" aria-label="Avida-ED Home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">
+          <span class="brand__title">Avida-ED</span>
+          <span class="brand__tagline">Evolution in Action</span>
+        </span>
+      </a>
+
+      <button class="navtoggle" id="navToggle" aria-controls="topNav" aria-expanded="false">
+        Menu
+      </button>
+
+      <nav class="topnav" id="topNav" role="navigation" aria-label="Primary">
+        <a href="#mission">Mission</a>
+        <a href="#getting-started">Getting started</a>
+        <a href="#curriculum">Curriculum</a>
+        <a href="#support">Support</a>
+        <a class="topnav__cta" href="#apps">Launch</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout">
+    <!-- Fixed sidebar -->
+    <aside class="sidebar" role="complementary" aria-label="Apps and quick links">
+      <div class="sidebar__section">
+        <h2 class="sidebar__heading" id="apps">Apps</h2>
+
+        <a class="card card--primary" href="https:/Avida-ED.github.io/Avida-ED3/" target="_blank" rel="noopener">
+          <div class="card__kicker">Avida-ED 3</div>
+          <div class="card__title">Launch the classic web app</div>
+          <div class="card__body">Run experiments with self-replicating digital organisms.</div>
+        </a>
+
+        <a class="card" href="https:/Avida-ED.github.io/Avida-ED4/" target="_blank" rel="noopener">
+          <div class="card__kicker">Avida-ED 4</div>
+          <div class="card__title">Launch the latest app</div>
+          <div class="card__body">Next-generation interface and workflow.</div>
+        </a>
+
+        <div class="sidebar__mini">
+          <a href="/download-avida-ed/">Downloads</a>
+          <a href="/curriculum/">Curriculum</a>
+          <a href="/support/">Support</a>
+        </div>
+      </div>
+
+      <div class="sidebar__section">
+        <h2 class="sidebar__heading">Quick note</h2>
+        <p class="sidebar__note">
+          This is an interim design intended to stabilize navigation, launch paths, and core messaging.
+          The second-stage redesign can migrate this structure into Docusaurus.
+        </p>
+      </div>
+    </aside>
+
+    <!-- Main content scrolls; sidebar does not -->
+    <main class="content" role="main">
+      <section class="hero" id="mission">
+        <h1>Open-access evolutionary education</h1>
+        <p class="lead">
+          Avida-ED helps students and educators explore evolution by natural selection through hands-on,
+          repeatable experiments with evolving digital organisms.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="/curriculum/">Explore curriculum</a>
+          <a class="btn btn--ghost" href="#getting-started">How to start</a>
+        </div>
+
+        <div class="hero__meta">
+          <div class="pill">Classroom-ready</div>
+          <div class="pill">Open-access</div>
+          <div class="pill">Evidence-based</div>
+        </div>
+      </section>
+
+      <section class="section" id="getting-started">
+        <h2>Getting started</h2>
+        <div class="grid">
+          <article class="panel">
+            <h3>Choose your app</h3>
+            <p>
+              For stable classroom use, start with Avida-ED 3. If you want to evaluate the new workflow,
+              try Avida-ED 4.
+            </p>
+            <ul>
+              <li><a href="https:/Avida-ED.github.io/Avida-ED3/" target="_blank" rel="noopener">Launch Avida-ED 3</a></li>
+              <li><a href="https:/Avida-ED.github.io/Avida-ED4/" target="_blank" rel="noopener">Launch Avida-ED 4 (beta)</a></li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>Use the lab materials</h3>
+            <p>
+              The curriculum hub provides lab books, model lessons, and supporting materials designed for educators.
+            </p>
+            <p><a class="link" href="/curriculum/">Go to Curriculum</a></p>
+          </article>
+
+          <article class="panel">
+            <h3>Need help?</h3>
+            <p>
+              The support pages include instructor FAQs, student FAQs, and troubleshooting guidance.
+            </p>
+            <p><a class="link" href="/support/">Go to Support</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="curriculum">
+        <h2>Educational mission</h2>
+        <div class="callout">
+          <h3>Teach evolution with observable outcomes</h3>
+          <p>
+            Students can design experiments, observe evolutionary change across generations,
+            and connect results to core concepts such as mutation, selection, drift, and adaptation.
+          </p>
+        </div>
+
+        <div class="grid">
+          <article class="panel">
+            <h3>Instructor-focused</h3>
+            <p>Clear activities, scaffolding, and alignment support. (Add standards mapping later.)</p>
+          </article>
+          <article class="panel">
+            <h3>Student-friendly</h3>
+            <p>Hands-on exploration and analysis—emphasizing scientific reasoning and evidence.</p>
+          </article>
+          <article class="panel">
+            <h3>Open and extensible</h3>
+            <p>Interim site keeps key links stable; later the content can be modularized into components.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="support">
+        <h2>Support and community</h2>
+        <p>
+          We aim to keep Avida-ED usable in real classrooms—stable links, clear onboarding, and dependable documentation.
+        </p>
+        <div class="split">
+          <div class="panel">
+            <h3>Instructor FAQs</h3>
+            <p><a class="link" href="/instructor-faqs/">Read instructor FAQs</a></p>
+          </div>
+          <div class="panel">
+            <h3>Student FAQs</h3>
+            <p><a class="link" href="/student-faqs/">Read student FAQs</a></p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer" role="contentinfo">
+        <div class="footer__inner">
+          <div>
+            <strong>Avida-ED</strong>
+            <div class="muted">Educational mission first. More modules coming in stage two.</div>
+          </div>
+          <div class="footer__links">
+            <a href="/about-us/">About</a>
+            <a href="/news/">News</a>
+            <a href="/version-history/">Version history</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
